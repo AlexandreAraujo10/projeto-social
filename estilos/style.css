@@ -15,7 +15,7 @@ html, body {
 body {
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover; /* pra ele cobrir a tela inteira */
-    background-attachment: fixed; /* é para não haver rolagem (pra fixar)
+    background-attachment: fixed; /* é para não haver rolagem (pra fixar)*/
 }
 
 main {
