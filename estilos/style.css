@@ -34,3 +34,11 @@ section#telefone {
     transform: translate(-50%, -50%); /* posicionar no topo e no meio da tela */
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+iframe#tela {
+    position: relative;
+    top: 81px;
+    left: 23px;
+    width: 265px;
+    height: 469px;
+}
