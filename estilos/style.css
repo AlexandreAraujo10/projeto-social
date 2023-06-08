@@ -33,6 +33,7 @@ section#telefone {
     left: 50%;  /* posicionar no topo e no meio da tela */
     transform: translate(-50%, -50%); /* posicionar no topo e no meio da tela */
     background: url('../imagens/frame-iphone.png') no-repeat;
+    
 }
 
 iframe#tela {
@@ -41,4 +42,20 @@ iframe#tela {
     left: 23px;
     width: 265px;
     height: 469px;
+}
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box; /* a borda fazer parte da caixa */
+}
+section#redes-sociais {
+    text-align: right;
+}
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-5px, -5px); /* é p/ o botão mover quando passar o mouse em cima */
+    box-shadow: 5px 5px 10px black;
+    transition: transform 1s, border 1s; /* é p/ o botão mover mais devagar quando passar o mouse em cima */
 }
